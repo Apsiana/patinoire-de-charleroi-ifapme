@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Patinoire de Charleroi</title>
+    <link rel="icon" href="picture/favicon.svg">
+</head>
+
+<body>
+    <nav class="navbar background sticky-top d-lg-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="picture/PATINOIRE Charleroi mini.svg"
+                    class="mx-auto d-block w-100"></a>
+            <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="bi bi-list text-white"></span>
+            </button>
+            <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title fs-1 fw-bold" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item" data-bs-dismiss="offcanvas">
+                            <a class="nav-link fs-5" aria-current="page" href="#accueil">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas">
+                            <a class="nav-link fs-5" href="#tarifs">TARIFS</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas">
+                            <a class="nav-link fs-5" href="#actus">ACTUS</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas">
+                            <a class="nav-link fs-5" href="#histoire">HISTOIRE</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas">
+                            <a class="nav-link fs-5" href="clubs-cours.html">CLUBS / COURS</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas">
+                            <a class="nav-link fs-5" href="reglement.html">RÈGLEMENT</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="offcanvas" data-bs-dismiss="offcanvas">
+                            <a class="nav-link fs-5" href="#contacts">CONTACTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-3 d-none d-lg-block background">
+        <img src="picture/PATINOIRE-Charleroi.svg" class="mx-auto d-none d-lg-block pt-3 px-5 w-100">
+    </header>
+
+    <nav class="sticky-top d-none d-lg-inline">
+        <div class="background">
+            <div class="container">
+                <ul class="nav py-2">
+                    <li class="nav-item me-auto">
+                        <a class="nav-link link-light fw-semibold" href="#accueil">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link link-light fw-semibold" href="#tarifs">TARIFS</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link link-light fw-semibold" href="#actus">ACTUS</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link link-light fw-semibold" href="#histoire">HISTOIRE</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link link-light fw-semibold" href="clubs-cours.html">CLUBS / COURS</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link link-light fw-semibold" href="reglement.html">RÈGLEMENT</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link link-light fw-semibold" href="#contacts">CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="background">
+        <img src="picture/image patinoire1.png" class="w-100 img-fluid">
+    </section>
+
+    <section id="accueil" class="text-white px-3 background scroll">
+        <div class="container py-5">
+            <h1 class=" fw-bold">
+                Bienvenue à la patinoire de Charleroi
+            </h1>
+            <p>
+                Nous sommes ravis de vous accueillir ici pour une expérience de glisse inoubliable. Que vous
+                soyez
+                un patineur débutant ou expérimenté, en famille ou entre amis, notre patinoire offre tout ce
+                qu'il
+                vous faut pour passer une journée amusante sur la glace. Alors, sortez vos patins et préparez
+                vous à
+                glisser avec nous !
+            </p>
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="row my-5">
+                        <h4 class="fw-bold">
+                            Heures
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-5 fw-bold">
+                                Mercredi:
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="text-end">
+                                14h00 - 16h00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-5 fw-bold">
+                                Vendredi:
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="text-end">
+                                18h30 - 20h30
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-5 fw-bold">
+                                Samedi:
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="mb-0 text-end">
+                                14h00 - 16h00
+                            </p>
+                            <p class="text-end">
+                                16h30 - 18h30
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-5 fw-bold">
+                                Dimanche:
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="mb-0 text-end">
+                                10h30 - 12h30
+                            </p>
+                            <p class="mb-0 text-end">
+                                14h00 - 16h00
+                            </p>
+                            <p class="text-end">
+                                16h30 - 18h30
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col">
+                            <p>
+                                Vacances scolaires et jours fériés: mêmes heures que le samedi.
+                            </p>
+                            <p>
+                                Réservé aux écoles à partir de novembre de 8h30 à 16h15 pendant les jours scolaires.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-grid"></div>
+                <div class="col">
+                    <div class="row my-5">
+                        <h4 class="fw-bold">
+                            Adresse et contact
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                Rue Neuve 75a - 6061 Montignies Sur Sambre
+                            </p>
+                            <p>
+                                +32 (0)71 32 21 83
+                            </p>
+                            <p class="mt-5">
+                                Merci d'appeler environ 30 minutes après le début de chaque séance.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col">
+                            <a class="fs-4 nav-link text-info" href="#contacts">
+                                Contactez nous
+                                <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tarifs" class="scroll">
+        <div class="container-lg pt-5">
+            <h1 class="text-center fw-bold mb-5">
+                Entrées
+            </h1>
+            <div class="scrolling-wrapper row flex-row flex-nowrap row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
+                <div class="col-10 col-md-5 col-lg-4 px-4">
+                    <div class="card h-100">
+                        <img src="picture/generales.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-3">Générales</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <p>3 à 5 ans:</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">3,50€ /pers</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>-14 ans:</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">5,50€ /pers</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>+14 ans:</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">6,50€ /pers</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Patins</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">3,00€ /pers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="fs-4 fw-bold px-3">
+                            3,50€ - 6,50€
+                        </p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5 col-lg-4 px-4">
+                    <div class="card h-100">
+                        <img src="picture/familles.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-3">Familles</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <p>-4 personnes:</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">8,00€ /pers</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">+4 personnes:</p>
+                                    <p class="text-secondary">(patins inclus)</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">8,00€ /pers</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Sans patins:</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">5,50€ /pers</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col fw-semibold">
+                                    <p>Sur demande, ce tarif peut s'appliquer aux groupes (écoles, scouts,
+                                        associations,...).</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="fs-4 fw-bold px-3">
+                            5,50€ - 8,50€
+                        </p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5 col-lg-4 px-4">
+                    <div class="card h-100">
+                        <img src="picture/abonnements.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-3">Abonnements</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">-14 ans:</p>
+                                    <p class="text-secondary">(+-4,50 /pers)</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">55,00€ /groupe</p>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">+14 ans:</p>
+                                    <p class="text-secondary">(+-5,50 /pers)</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">65,00€ /groupe</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col fw-semibold">
+                                    <p>Un groupe est égale a 12 personnes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="fs-4 fw-bold px-3">
+                            55,00€ - 65,00€
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-lg py-5">
+            <h1 class="text-center fw-bold mb-5">
+                Locations / Service
+            </h1>
+            <div class="scrolling-wrapper row flex-row flex-nowrap row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
+                <div class="col-10 col-md-5 col-lg-4 px-4">
+                    <div class="card h-100">
+                        <img src="picture/casier.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-3">Casier</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">Casiers: 6,00€ /casier</p>
+                                    <p class="text-secondary">(1€ location et 5€ caution)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="fs-4 fw-bold px-3">
+                            1,00€
+                        </p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5 col-lg-4 px-4">
+                    <div class="card h-100">
+                        <img src="picture/petite-chaise.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-3">Petite chaise</h4>
+                            <div class="row">
+                                <p class="mb-0">Petite chaise: 6,00€ /chaise</p>
+                                <p class="text-secondary">(1€ location et 5€ caution)</p>
+                            </div>
+                            <div class="row fw-semibold">
+                                <p>
+                                    Jamais de 14h00 - 16h00
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="fs-4 fw-bold px-3">
+                            1,00€
+                        </p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5 col-lg-4 px-4">
+                    <div class="card h-100">
+                        <img src="picture/affutage.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-3">Affutage</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">Délais 1 semaine:</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">7,00€</p>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">Délais +-30 minutes:</p>
+                                </div>
+                                <div class="col">
+                                    <p class="text-end">10,00€</p>
+                                </div>
+                            </div>
+                            <div class="row fw-semibold">
+                                <p>
+                                    Nous n'autorisons pas le dépôt et le retrait des patins en dehors des horaires de
+                                    séances publique.
+                                </p>
+                            </div>
+                        </div>
+                        <p class="fs-4 fw-bold px-3">
+                            7,00€ - 10,00€
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="actus" class="bg-info-subtle actus-link scroll">
+        <h1 class="text-center fw-bold pt-5">
+            ACTUS DE LA PATINOIRE
+        </h1>
+        <div id="carouselExampleIndicators" class="carousel slide d-none d-lg-grid">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active bg-info" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-info"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-info"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="d-flex">
+                <button class="carousel-control-prev not-absolut" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+
+                    <i class="bi bi-chevron-left fs-1 text-info"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center gy-5 pt-5">
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3" href="https://fb.watch/jaMVuyAD1Y/">
+                                    <div class="card h-100">
+                                        <img src="picture/video pyjama 2023.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Pyjama Party</h4>
+                                            <p class="fw-semibold">04 mars 2023</p>
+                                            <p>Les photos arrivent fin de semaine 😊</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3"
+                                    href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid02YmpP4dxugRRh5UEGuVghiGF7bksUZWbmDB5JwtT11vzBmRdqpRqSJsbR9DPRP6wtl">
+                                    <div class="card h-100">
+                                        <img src="picture/nouveaux patins.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Vente de patins</h4>
+                                            <p class="fw-semibold">26 février 2023</p>
+                                            <p class="max-line">Bonjour à tous, désormais vous pouvez acheter vos
+                                                patins chez nous!
+                                                Toutes pointures de 37 a 45 disponibles de suite 1er affûtage offert 😊
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3"
+                                    href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid03VpWgnFApZyR2ewwYvVtwhtpRGDuggabeWDEuwt2Y9CAXrLCVm9vc5fmwvafT94Kl">
+                                    <div class="card h-100">
+                                        <img src="picture/vacance-patinoire.png" class="card-img-top" alt="">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Vacances de carnaval</h4>
+                                            <p class="fw-semibold">17 février 2023</p>
+                                            <p>Horaire speciale carnaval</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center gy-5 pt-5">
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3" href="https://fb.watch/jaMVuyAD1Y/">
+                                    <div class="card h-100">
+                                        <img src="picture/video pyjama 2023.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Pyjama Party</h4>
+                                            <p class="fw-semibold">04 mars 2023</p>
+                                            <p>Les photos arrivent fin de semaine 😊</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3"
+                                    href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid02YmpP4dxugRRh5UEGuVghiGF7bksUZWbmDB5JwtT11vzBmRdqpRqSJsbR9DPRP6wtl">
+                                    <div class="card h-100">
+                                        <img src="picture/nouveaux patins.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Vente de patins</h4>
+                                            <p class="fw-semibold">26 février 2023</p>
+                                            <p class="max-line">Bonjour à tous, désormais vous pouvez acheter vos
+                                                patins chez nous!
+                                                Toutes pointures de 37 a 45 disponibles de suite 1er affûtage offert 😊
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3"
+                                    href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid03VpWgnFApZyR2ewwYvVtwhtpRGDuggabeWDEuwt2Y9CAXrLCVm9vc5fmwvafT94Kl">
+                                    <div class="card h-100">
+                                        <img src="picture/vacance-patinoire.png" class="card-img-top" alt="">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Vacances de carnaval</h4>
+                                            <p class="fw-semibold">17 février 2023</p>
+                                            <p>Horaire speciale carnaval</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center gy-5 pt-5">
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3" href="https://fb.watch/jaMVuyAD1Y/">
+                                    <div class="card h-100">
+                                        <img src="picture/video pyjama 2023.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Pyjama Party</h4>
+                                            <p class="fw-semibold">04 mars 2023</p>
+                                            <p>Les photos arrivent fin de semaine 😊</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3"
+                                    href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid02YmpP4dxugRRh5UEGuVghiGF7bksUZWbmDB5JwtT11vzBmRdqpRqSJsbR9DPRP6wtl">
+                                    <div class="card h-100">
+                                        <img src="picture/nouveaux patins.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Vente de patins</h4>
+                                            <p class="fw-semibold">26 février 2023</p>
+                                            <p class="max-line">Bonjour à tous, désormais vous pouvez acheter vos
+                                                patins chez nous!
+                                                Toutes pointures de 37 a 45 disponibles de suite 1er affûtage offert 😊
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col mb-5 px-4">
+                                <a target="_blank" class="h-100 nav-link rounded-3"
+                                    href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid03VpWgnFApZyR2ewwYvVtwhtpRGDuggabeWDEuwt2Y9CAXrLCVm9vc5fmwvafT94Kl">
+                                    <div class="card h-100">
+                                        <img src="picture/vacance-patinoire.png" class="card-img-top" alt="">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold mb-0 max-line">Vacances de carnaval</h4>
+                                            <p class="fw-semibold">17 février 2023</p>
+                                            <p>Horaire speciale carnaval</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-next not-absolut" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <i class="bi bi-chevron-right fs-1 text-info"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="d-lg-none">
+            <div class="container-lg">
+                <div
+                    class="scrolling-wrapper row flex-row flex-nowrap row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5 py-5">
+
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3" href="https://fb.watch/jaMVuyAD1Y/">
+                            <div class="card h-100">
+                                <img src="picture/video pyjama 2023.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Pyjama Party</h4>
+                                    <p class="fw-semibold">04 mars 2023</p>
+                                    <p>Les photos arrivent fin de semaine 😊</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3"
+                            href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid02YmpP4dxugRRh5UEGuVghiGF7bksUZWbmDB5JwtT11vzBmRdqpRqSJsbR9DPRP6wtl">
+                            <div class="card h-100">
+                                <img src="picture/nouveaux patins.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Vente de patins</h4>
+                                    <p class="fw-semibold">26 février 2023</p>
+                                    <p class="max-line">Bonjour à tous, désormais vous pouvez acheter vos
+                                        patins chez nous!
+                                        Toutes pointures de 37 a 45 disponibles de suite 1er affûtage offert 😊
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3"
+                            href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid03VpWgnFApZyR2ewwYvVtwhtpRGDuggabeWDEuwt2Y9CAXrLCVm9vc5fmwvafT94Kl">
+                            <div class="card h-100">
+                                <img src="picture/vacance-patinoire.png" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Vacances de carnaval</h4>
+                                    <p class="fw-semibold">17 février 2023</p>
+                                    <p>Horaire speciale carnaval</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3" href="https://fb.watch/jaMVuyAD1Y/">
+                            <div class="card h-100">
+                                <img src="picture/video pyjama 2023.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Pyjama Party</h4>
+                                    <p class="fw-semibold">04 mars 2023</p>
+                                    <p>Les photos arrivent fin de semaine 😊</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3"
+                            href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid02YmpP4dxugRRh5UEGuVghiGF7bksUZWbmDB5JwtT11vzBmRdqpRqSJsbR9DPRP6wtl">
+                            <div class="card h-100">
+                                <img src="picture/nouveaux patins.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Vente de patins</h4>
+                                    <p class="fw-semibold">26 février 2023</p>
+                                    <p class="max-line">Bonjour à tous, désormais vous pouvez acheter vos
+                                        patins chez nous!
+                                        Toutes pointures de 37 a 45 disponibles de suite 1er affûtage offert 😊
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3"
+                            href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid03VpWgnFApZyR2ewwYvVtwhtpRGDuggabeWDEuwt2Y9CAXrLCVm9vc5fmwvafT94Kl">
+                            <div class="card h-100">
+                                <img src="picture/vacance-patinoire.png" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Vacances de carnaval</h4>
+                                    <p class="fw-semibold">17 février 2023</p>
+                                    <p>Horaire speciale carnaval</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3" href="https://fb.watch/jaMVuyAD1Y/">
+                            <div class="card h-100">
+                                <img src="picture/video pyjama 2023.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Pyjama Party</h4>
+                                    <p class="fw-semibold">04 mars 2023</p>
+                                    <p>Les photos arrivent fin de semaine 😊</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3"
+                            href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid02YmpP4dxugRRh5UEGuVghiGF7bksUZWbmDB5JwtT11vzBmRdqpRqSJsbR9DPRP6wtl">
+                            <div class="card h-100">
+                                <img src="picture/nouveaux patins.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Vente de patins</h4>
+                                    <p class="fw-semibold">26 février 2023</p>
+                                    <p class="max-line">Bonjour à tous, désormais vous pouvez acheter vos
+                                        patins chez nous!
+                                        Toutes pointures de 37 a 45 disponibles de suite 1er affûtage offert 😊
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-10 col-md-5 px-4">
+                        <a target="_blank" class="h-100 nav-link rounded-3"
+                            href="https://www.facebook.com/PatinoireCharleroi/posts/pfbid03VpWgnFApZyR2ewwYvVtwhtpRGDuggabeWDEuwt2Y9CAXrLCVm9vc5fmwvafT94Kl">
+                            <div class="card h-100">
+                                <img src="picture/vacance-patinoire.png" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mb-0 max-line">Vacances de carnaval</h4>
+                                    <p class="fw-semibold">17 février 2023</p>
+                                    <p>Horaire speciale carnaval</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="histoire" class="text-white px-3 background scroll">
+        <div class="container text-center justify-content-center py-5">
+            <h1 class=" fw-bold mb-5">
+                Histoire de la patinoire de Charleroi
+            </h1>
+            <p>
+                La patinoire est créée en 1973 à l'initiative de Madame Loréal Renée et de Monsieur Masson François.
+                Elle est construite sur un terrain communal de Montignies sur Sambre, dirigé alors par Monsieur Poffée,
+                bourgmestre de l'époque.
+            </p>
+            <p>
+                C'est en 1985, qu'ils cèdent la gestion à Madame Masson Armande et à Monsieur Jean-Charles Demeyere.
+            </p>
+            <p>
+                En 2006, un bail commercial remplace le bail emphytéotique, faisant de la patinoire un ensemble géré en
+                collaboration avec la ville de Charleroi.
+            </p>
+            <p>
+                Dès 2014, Monsieur Badr-Eddine Amirar rejoint l'équipe de Direction de la patinoire.
+            </p>
+            <img class="img-fluid mt-5" src="picture/histoire.png">
+        </div>
+    </section>
+
+    <footer id="contacts" class="bg-black text-white px-3 scroll">
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-lg-2 pb-5 border-bottom border-white">
+                <div class="col border-right">
+                    <div class="row fw-bold mb-5 text-center">
+                        <h1>
+                            Contacts
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <p class="fw-bold fs-5 mb-2">
+                            Patinoire et Location de patins
+                        </p>
+                        <p class="ps-3">
+                            +32 (0)71 32 21 83
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p class="fw-bold fs-5 mt-3 mb-2">
+                            Responsable
+                        </p>
+                        <p class="mb-0 ps-3">
+                            +32 470 525 715 | amiradab@hotmail.com
+                        </p>
+                        <p class="ps-3">
+                            +32 476 724 760 | polissage.passion@gmail.com
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p class="fw-bold fs-5 mt-3 mb-2">
+                            École des jeunes Patinoire Charleroi (EJPCC)
+                        </p>
+                        <p class="mb-0 fw-semibold ps-3">
+                            Club patinage artistique PLC et cours:
+                        </p>
+                        <p class="ps-3 mb-3">
+                            +32 474 46 76 51
+                        </p>
+                        <p class="mb-0 fw-semibold ps-3">
+                            Club hockey Red Rooster et cours:
+                        </p>
+                        <p class="ps-3">
+                            +32 476 68 29 58
+                        </p>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="row fw-bold mb-5">
+                        <h1>
+                            Réseau
+                        </h1>
+                    </div>
+                    <div class="row pb-5">
+                        <p class="fw-semibold px-5">
+                            Rejoins nous sur Facebook
+                            pour être au courant des actus et des dernière modifications
+                        </p>
+                    </div>
+                    <div class="row d-grid col-8 col-lg-5 mx-auto pt-5">
+                        <a class="btn btn-outline-light rounded-pill fw-semibold fs-5"
+                            href="https://www.facebook.com/PatinoireCharleroi/" target="_blank" role="button">
+                            <i class="bi bi-facebook pe-4"></i>Suivez nous</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row fw-bold text-center mt-5">
+                <p>
+                    Informations non contractuelles - La Direction se réserve le droit de modifier les tarifs,
+                    conditions,
+                    horaires, événements etc. sans avis préalable.
+                </p>
+            </div>
+        </div>
+        <p class="text-center mb-0">
+            Copyright ©2023 <a class="nav-link link-info d-inline" href="mailto:sebastiendarge@gmail.com">Sebastien
+                Darge</a>. Tous droits réservés.
+        </p>
+    </footer>
+
+    <button id="btn-back-to-top" type="button" class="btn btn-lg btn-info rounded-circle z-1">
+        <i class="bi bi-arrow-up text-white"></i>
+    </button>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</html>

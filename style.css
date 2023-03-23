@@ -1,0 +1,54 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header img{
+    max-width: 417px;
+}
+
+.background {
+    background-color: #001932;
+}
+.scrolling-wrapper{
+	overflow-x: auto ;
+}
+
+.not-absolut {
+    position: static !important;
+}
+
+.actus-link a:active {
+   box-shadow: none !important;
+}
+
+.actus-link a:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.max-line {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  -webkit-line-clamp: 1;
+}
+
+.border-right {
+  border-right: 1px solid white;
+}
+
+.scroll {
+  scroll-margin-top: 55px;
+}
+  
+#btn-back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .border-right {
+    border-right: unset;
+  }
+}
